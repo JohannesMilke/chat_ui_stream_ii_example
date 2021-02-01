@@ -1,0 +1,29 @@
+name: chat_ui_stream_ii_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # stream chat
+  stream_chat_flutter: ^0.2.21
+
+  # firebase
+  cloud_firestore: ^0.16.0
+  firebase_auth: ^0.20.0+1
+  firebase_core: ^0.7.0
+  firebase_storage: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
